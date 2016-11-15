@@ -1,0 +1,29 @@
+{
+  "name": "frontend-image-compressor",
+  "version": "1.0.0",
+  "description": "Module to compress images on the client before uploading",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oturnermajor/frontend-image-compressor.git"
+  },
+  "keywords": [
+    "image",
+    "compress",
+    "frontend",
+    "upload",
+    "file"
+  ],
+  "author": "Owen Turner-Major",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oturnermajor/frontend-image-compressor/issues"
+  },
+  "homepage": "https://github.com/oturnermajor/frontend-image-compressor#readme",
+  "devDependencies": {
+    "standard": "^8.5.0"
+  }
+}
