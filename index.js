@@ -51,8 +51,8 @@ module.exports = function (config) {
     var dataURL = canvas.toDataURL('image/jpeg', 0.5)
     var a = dataURL.split(',')[1]
     var blob = atob(a)
-    let array = []
-    for (let k = 0; k < blob.length; k++) {
+    var array = []
+    for (var k = 0; k < blob.length; k++) {
       array.push(blob.charCodeAt(k))
     }
     var data = new Blob([new Uint8Array(array)], {
